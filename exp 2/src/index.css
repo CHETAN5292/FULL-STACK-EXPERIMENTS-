@@ -1,0 +1,29 @@
+:root {
+  --bg: #12141c;
+  --panel: #1a1d29;
+  --panel-alt: #20242f;
+  --border: #2c3142;
+  --text: #e7e9f0;
+  --muted: #8b90a3;
+  --accent: #5b8def;
+  --accent-2: #4f46e5;
+  --success: #34c38f;
+  --warning: #f1b44c;
+  --danger: #f46a6a;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+button, input, textarea, select {
+  font-family: inherit;
+  font-size: 14px;
+}
